@@ -57,14 +57,15 @@ We can develop applications for the following platforms with Xcode. MacOS iOS, w
 It is the easiest way to use Xcode because this ide developed for apple products.
 You can install Xcode from this link  https://apps.apple.com/tr/app/xcode/id497799835?mt=12 and accept all upload instructions
 
-How can i use Xcode on Windows OS ?
+  ## For Windows Operating System 
+  ### How can i use Xcode on Windows OS ?
 
 It is possible to use Xcode on Windows, but there are some conditions. Our computer must have Intel processor. Xcode does not support AMD processors right now. And we need to install virtual machines to computer like VMware. You can install from this link https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
 After that we should install macOS operating system to virtual machine. There are many macOS iso file to install on internet. You can follow this link. 
 https://www.mediafire.com/folder/6p5rv8jd50cua/macOS_Catalina_10.15.3_by_Geekrar_(One_Full)
 Finally we shoul install Xcode from this link https://apps.apple.com/tr/app/xcode/id497799835?mt=12
 
-  For Linux Operating Systems
+  ## For Linux Operating Systems
 Swift installation on Ubuntu, now we need to install a component called Clang, which is the first and most important part of this installation.
 
 Go to the Terminal and type:
@@ -84,8 +85,7 @@ The -dev suffix on the version number is used to indicate that it’s a developm
 
 Now min level of the toolchain for XCode (the GCC compiler family, the gdb debugger, etc.) is the open-source and public to Unix and Linux platforms.
 
-Example Codes
-Prime number calculations.
+#                                       Example Codes for prime number calculations
 
 func generatePrimes(to n: Int) -> [Int] {
 
@@ -111,7 +111,7 @@ func generatePrimes(to n: Int) -> [Int] {
 
 
 
-Things that are specific to this language?
+#                                           Things that are specific to this language?
 
 Included some spesific features to Swift. 
 •	Closures unified with function pointers
