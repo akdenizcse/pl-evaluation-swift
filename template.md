@@ -60,6 +60,74 @@ After that we should install macOS operating system to virtual machine. There ar
 https://www.mediafire.com/folder/6p5rv8jd50cua/macOS_Catalina_10.15.3_by_Geekrar_(One_Full)
 Finally we shoul install Xcode from this link https://apps.apple.com/tr/app/xcode/id497799835?mt=12
 
+  For Linux 
+Swift installation on Ubuntu, now we need to install a component called Clang, which is the first and most important part of this installatio.
+Go to the Terminal and type:
+
+sudo apt-get install clang
+
+Since you need to install the Swift toolchain on Linux to a directory other than the system root, you will need to run the following command, using the actual path of your Swift installation:
+
+export PATH=/path/to/Swift/usr/bin:”${PATH}”
+
+Now it’s time to authenticate and very that you have the latest version of Swift by entering the swift command and passing the –version flag:
+
+swift –version
+Apple Swift version 2.2-dev (LLVM …, Clang …, Swift …)
+
+The -dev suffix on the version number is used to indicate that it’s a development build, not a released version.
+
+Now min level of the toolchain for XCode (the GCC compiler family, the gdb debugger, etc.) is the open-source and public to Unix and Linux platforms.
+
+Example Codes
+Prime number calculations.
+
+func generatePrimes(to n: Int) -> [Int] {
+
+    precondition(n > 5, "Input must be greater than 5")
+
+    var arr : [Int] = Array<Int>(stride(from: 3, to: n, by: 2))     
+
+    for index in 0... {
+        let num : Int = arr.remove(at: index)
+        arr = arr.filter{ $0 % num != 0 }
+        arr.insert(num, at: index)
+        if arr[index + 1] >= Int(floor(sqrtf(Float(n)))) { break }
+    }
+
+    arr.insert(2, at: 0)
+
+    //Print Statements
+    print("Prime numbers under \(n):")
+    _ = arr.enumerated().map { (index, element) in print("\t\(index + 1). \(element)") }
+
+    return arr
+}
+
+
+
+Things that are specific to this language?
+
+Included some spesific features to Swift. 
+•	Closures unified with function pointers
+•	Tuples and multiple return values
+•	Generics
+•	Fast and concise iteration over a range or collection
+•	Structs that support methods, extensions, and protocols
+•	Functional programming patterns, e.g., map and filter
+•	Powerful error handling built-in
+•	Advanced control flow with do, guard, defer, and repeat keywords
+•	Variables are always initialized before use.
+•	Array indices are checked for out-of-bounds errors.
+•	Integers are checked for overflow.
+•	Optionals ensure that nil values are handled explicitly.
+•	Memory is managed automatically.
+•	Error handling allows controlled recovery from unexpected failures.
+•	you don’t need a main() function. 
+•	You also don’t need to write semicolons at the end of every statement.
+
+
+
 
 
 
