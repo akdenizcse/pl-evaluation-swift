@@ -114,22 +114,22 @@ func generatePrimes(to n: Int) -> [Int] {
 #                                           Things that are specific to this language?
 
 Included some spesific features to Swift. 
-•	Closures unified with function pointers
-•	Tuples and multiple return values
-•	Generics
-•	Fast and concise iteration over a range or collection
-•	Structs that support methods, extensions, and protocols
-•	Functional programming patterns, e.g., map and filter
-•	Powerful error handling built-in
-•	Advanced control flow with do, guard, defer, and repeat keywords
-•	Variables are always initialized before use.
-•	Array indices are checked for out-of-bounds errors.
-•	Integers are checked for overflow.
-•	Optionals ensure that nil values are handled explicitly.
-•	Memory is managed automatically.
-•	Error handling allows controlled recovery from unexpected failures.
-•	you don’t need a main() function. 
-•	You also don’t need to write semicolons at the end of every statement.
+Closures unified with function pointers.
+Tuples and multiple return values.
+Generics.
+Fast and concise iteration over a range or collection.
+Structs that support methods, extensions, and protocols.
+Functional programming patterns, e.g., map and filter.
+Powerful error handling built-in.
+Advanced control flow with do, guard, defer, and repeat keywords.
+Variables are always initialized before use.
+Array indices are checked for out-of-bounds errors.
+Integers are checked for overflow.
+Optionals ensure that nil values are handled explicitly.
+Memory is managed automatically.
+Error handling allows controlled recovery from unexpected failures.
+You don’t need a main() function. 
+You also don’t need to write semicolons at the end of every statement.
 
 
 
