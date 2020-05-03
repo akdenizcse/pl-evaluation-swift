@@ -1,7 +1,7 @@
 #                                                       Swift Programming Language
 
   Swift developed by under the leadership of Chris Lattner which be software engineer in the Aplle with Doug Gregor, John McCall, Ted Kremenek, Joe Groff and Aple Inc. Swift announced in  2 June 2014  at Apple Worldwide Developers Conferance .
-While the Swift language was creating, many features from many other languages were taken. These languages are Objective-C, Rust, Haskell, Ruby, Python,  While the Swift language was creating, many features from many other languages were taken. These languages are Objective C, Rust, Haskell, Ruby, Python, C#, Clu, Dlang.  It was very much affected by Objective C.
+While the Swift language was creating, many features from many other languages were taken. These languages are Objective-C, Rust, Haskell, Ruby, Python.  While the Swift language was creating, many features from many other languages were taken. These languages are Objective C, Rust, Haskell, Ruby, Python, C#, Clu, Dlang.  It was very much affected to Objective C.
 
  #                                                         Why was invented ?
 
