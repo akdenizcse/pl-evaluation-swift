@@ -17,18 +17,18 @@ If we want to develop an applications for Apple products, Swift is the best choi
   1)	Swift to write and read is easier than many programming languages. When we compared to Objective-C, the number of codes that must be written to do the same operations is lesser than Objective C . So the product development process is faster. 
 
  ## Example  with Objective-C
-
+```java
 if(myDelegate != nil){
   if([myDelegate respondsToSelector :
       @selector (scrollViewDidScroll:)]){
       [myDelegate scrollViewDidScroll:myScrollView];
       }
  }
- 
+ ```
  ## Example with Swift
- 
+ ```java
  myDelegate?.scrollViewDidScroll?(myScrollView)
- 
+ ```
  
  2)	Swift is faster than other programming language in terms of performance.
  Swfit faster than Objective-C up to 2.6x and faster than Python 2.7 up to 8.4x .
@@ -86,7 +86,7 @@ The -dev suffix on the version number is used to indicate that it’s a developm
 Now min level of the toolchain for XCode (the GCC compiler family, the gdb debugger, etc.) is the open-source and public to Unix and Linux platforms.
 
 #                                       Example Codes for prime number calculations
-
+```java
 func generatePrimes(to n: Int) -> [Int] {
 
     precondition(n > 5, "Input must be greater than 5")
@@ -109,7 +109,7 @@ func generatePrimes(to n: Int) -> [Int] {
     return arr
 }
 
-
+```
 
 #                                           Things that are specific to this language?
 
