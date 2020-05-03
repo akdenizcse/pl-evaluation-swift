@@ -114,7 +114,7 @@ func generatePrimes(to n: Int) -> [Int] {
 #                                           Things that are specific to this language?
 
 Included some spesific features to Swift. 
-```bash
+```
 Closures unified with function pointers.
 Tuples and multiple return values.
 Generics.
