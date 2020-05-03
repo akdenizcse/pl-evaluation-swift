@@ -16,7 +16,7 @@ If we want to develop an applications for Apple products, Swift is the best choi
  ## Why shall we use it?
   1)	Swift to write and read is easier than many programming languages. When we compared to Objective-C, the number of codes that must be written to do the same operations is lesser than Objective C . So the product development process is faster. 
 
-  Example  with Objective-C
+ ## Example  with Objective-C
 
 if(myDelegate != nil){
   if([myDelegate respondsToSelector :
@@ -25,7 +25,7 @@ if(myDelegate != nil){
       }
  }
  
- Example with Swift
+ ## Example with Swift
  
  myDelegate?.scrollViewDidScroll?(myScrollView)
  
@@ -43,16 +43,16 @@ While doing this, it tire the device less because it does not use of the process
 
  6) Swift can be mount to Objective-C code seamlessly. At the same time, you can develop products using Swift together with Objective-C.
  
- How to setup an environment to use it in different platforms (windows, mac, linux)
+#                            How to setup an environment to use it in different platforms (windows, mac, linux)
  
  
  There is only one IDE that Apple can offer to us from the AppStore for free. Xcode A computer run on MacOS operating system is required to install Xcode.
 
-  For macOS Operating Systems
+  ## For macOS Operating Systems
   
 We can develop applications for the following platforms with Xcode. MacOS iOS, watchOS, tvOS.
 
-How can i install Xcode on the macOS platform ?
+ ### How can i install Xcode on the macOS platform ?
 
 It is the easiest way to use Xcode because this ide developed for apple products.
 You can install Xcode from this link  https://apps.apple.com/tr/app/xcode/id497799835?mt=12 and accept all upload instructions
