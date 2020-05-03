@@ -114,6 +114,7 @@ func generatePrimes(to n: Int) -> [Int] {
 #                                           Things that are specific to this language?
 
 Included some spesific features to Swift. 
+```bash
 Closures unified with function pointers.
 Tuples and multiple return values.
 Generics.
@@ -130,8 +131,7 @@ Memory is managed automatically.
 Error handling allows controlled recovery from unexpected failures.
 You don’t need a main() function. 
 You also don’t need to write semicolons at the end of every statement.
-
-
+```
 
 
 
