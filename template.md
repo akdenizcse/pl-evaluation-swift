@@ -25,13 +25,14 @@ if(myDelegate != nil){
       }
  }
  ```
- ## Example with Swift
+ ## Same operations with Swift
  ```java
  myDelegate?.scrollViewDidScroll?(myScrollView)
  ```
-These are same operations.
+
+  
  2)	Swift is faster than other programming language in terms of performance.
- Swfit faster than Objective-C up to 2.6x and faster than Python 2.7 up to 8.4x .
+ Swift faster than Objective-C up to 2.6x and faster than Python 2.7 up to 8.4x .
  
  3)	Swift is a safe programming language. What does safe mean here? The reliability of a programming language is measured by how much it   can prevent code crashes and production errors. Swift’s development environment is Xcode and it has code editor, code debugger, test     environment like emulator and with other many features. So it prevents the occurrences of new errors.
  4)	ARC (Automatic Reference Counting) 
