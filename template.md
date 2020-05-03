@@ -29,7 +29,7 @@ if(myDelegate != nil){
  ```java
  myDelegate?.scrollViewDidScroll?(myScrollView)
  ```
- 
+These are same operations.
  2)	Swift is faster than other programming language in terms of performance.
  Swfit faster than Objective-C up to 2.6x and faster than Python 2.7 up to 8.4x .
  
